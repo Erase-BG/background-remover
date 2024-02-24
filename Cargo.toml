@@ -1,0 +1,15 @@
+[package]
+name = "backgound-remover"
+version = "0.0.1"
+edition = "2021"
+authors = ["Tej Magar"]
+description = "The background remover by Erase BG"
+license = "MIT"
+documentation = "https://erasebg.org"
+repository = "https://github.com/Erase-BG/background-remover"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = "1.7.0"
+reqwest = "0.11.24"
